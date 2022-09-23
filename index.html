@@ -23,62 +23,91 @@
 		<main class="block">
 			<div class="grid">
 				<section class="block__left">
-					<h1 class="block__heading">Learn to Code by watching others</h1>
-					<p class="block__text">
-						See how experienced developers solve problems in real-time. Watching
-						scripted tutorials is great, but understanding how developers think is
-						invaluable.
-					</p>
+					<div class="block__left-content">
+						<h1 class="block__heading">Learn to Code by watching others</h1>
+						<p class="block__text">
+							See how experienced developers solve problems in real-time. Watching
+							scripted tutorials is great, but understanding how developers think is
+							invaluable.
+						</p>
+					</div>
 				</section>
 
 				<section class="block__right">
-					<div class="block__card">
-						<p class="block__card-text">
-							<strong>Try is free 7 days</strong> then $20/mo.thereafter
-						</p>
+					<div class="block__right-content">
+						<div class="block__card">
+							<p class="block__card-text">
+								<strong>Try it free 7 days</strong> then $20/mo. thereafter
+							</p>
+						</div>
+						<form autocomplete="off" class="block__card-form">
+							<div class="input-group">
+								<input
+									id="first-name"
+									placeholder="First Name"
+									type="text"
+									required
+									maxlength="100"
+								/>
+								<label class="label" for="first-name">
+									<img src="images/icon-error.svg" alt="" />
+								</label>
+							</div>
+							<p class="F-name-error-message">First Name cannot be empty</p>
+							<div class="input-group">
+								<input
+									id="last-name"
+									placeholder="Last Name"
+									type="text"
+									required
+									maxlength="100"
+								/>
+								<label class="label" for="last-name">
+									<img src="images/icon-error.svg" alt="" />
+								</label>
+							</div>
+							<p class="L-name-error-message">Last Name cannot be empty</p>
+							<div class="input-group">
+								<input
+									id="email"
+									placeholder="Email Address"
+									type="email"
+									required
+									maxlength="255"
+								/>
+								<label class="label" for="email">
+									<img src="images/icon-error.svg" alt="" />
+								</label>
+							</div>
+							<p class="Email-error-message">Looks like this is not an email</p>
+							<div class="input-group">
+								<input
+									id="password"
+									placeholder="Password"
+									type="password"
+									required
+									maxlength="100"
+								/>
+								<label class="label" for="password">
+									<img src="images/icon-error.svg" alt="" />
+								</label>
+							</div>
+							<p class="Password-error-message">Paasword cannot be empty</p>
+							<button>Claim your free trial</button>
+							<p class="terms">
+								By clicking the button, you are agreeing to our
+								<span><a href="#">Terms and Services</a></span>
+							</p>
+						</form>
 					</div>
-
-					<form autocomplete="off" class="block__card-form">
-						<div class="input-group">
-							<input id="first-name" placeholder="First Name" type="text" />
-							<label class="label" for="first-name">
-								<img src="images/icon-error.svg" alt="" />
-							</label>
-						</div>
-						<p class="F-name-error-message">First Name cannot be empty</p>
-
-						<div class="input-group">
-							<input id="last-name" placeholder="Last Name" type="text" />
-							<label class="label" for="last-name">
-								<img src="images/icon-error.svg" alt="" />
-							</label>
-						</div>
-						<p class="L-name-error-message">Last Name cannot be empty</p>
-
-						<div class="input-group">
-							<input id="email" placeholder="Email Address" type="email" />
-							<label class="label" for="email">
-								<img src="images/icon-error.svg" alt="" />
-							</label>
-						</div>
-						<p class="Email-error-message">Looks like this is not an email</p>
-
-						<div class="input-group">
-							<input id="password" placeholder="Password" type="password" />
-							<label class="label" for="password">
-								<img src="images/icon-error.svg" alt="" />
-							</label>
-						</div>
-						<p class="Password-error-message">Paasword cannot be empty</p>
-
-						<button>Claim your free trial</button>
-						<p class="terms">
-							By clicking the button, you are agreeing to our
-							<span><a href="#">Terms and Services</a></span>
-						</p>
-					</form>
 				</section>
 			</div>
 		</main>
+		<div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a
+			>. Coded by
+			<a href="https://github.com/Mohit-k-Mummon" target="_blank">Mohit K Mummon</a>.
+		</div>
 	</body>
 </html>
