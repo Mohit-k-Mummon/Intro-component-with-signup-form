@@ -4,17 +4,17 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- 
-      Style Sheets
-     -->
+      		Style Sheets
+     	-->
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/styles.css" />
 		<!-- 
-      Tab Icon
-     -->
+      		Tab Icon
+		-->
 		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 		<!-- 
-      JavaScript
-     -->
+      		JavaScript
+    	 -->
 		<script defer src="app.js"></script>
 
 		<title>Frontend Mentor | Intro component with sign up form</title>
@@ -49,7 +49,7 @@
 									required
 									maxlength="100"
 								/>
-								<label class="label" for="first-name">
+								<label id="label-1" class="label" for="first-name">
 									<img src="images/icon-error.svg" alt="" />
 								</label>
 							</div>
@@ -62,7 +62,7 @@
 									required
 									maxlength="100"
 								/>
-								<label class="label" for="last-name">
+								<label id="label-2" class="label" for="last-name">
 									<img src="images/icon-error.svg" alt="" />
 								</label>
 							</div>
@@ -75,7 +75,7 @@
 									required
 									maxlength="255"
 								/>
-								<label class="label" for="email">
+								<label id="label-3" class="label" for="email">
 									<img src="images/icon-error.svg" alt="" />
 								</label>
 							</div>
@@ -88,12 +88,12 @@
 									required
 									maxlength="100"
 								/>
-								<label class="label" for="password">
+								<label id="label-4" class="label" for="password">
 									<img src="images/icon-error.svg" alt="" />
 								</label>
 							</div>
 							<p class="Password-error-message">Paasword cannot be empty</p>
-							<button>Claim your free trial</button>
+							<button id="submit" type="submit">Claim your free trial</button>
 							<p class="terms">
 								By clicking the button, you are agreeing to our
 								<span><a href="#">Terms and Services</a></span>
