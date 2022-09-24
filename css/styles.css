@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 /****************** 
-    CSS Variables
+CSS Variables
 *******************/
 :root {
     /* Colors */
-        /* Primary */
-        --Red: hsl(0, 100%, 74%); 
-        --Green: hsl(154, 59%, 51%);
-
-        /* Accent */
-        --Blue: hsl(248, 32%, 49%);
-
-        /* Neutral */
-        --Dark-Blue: #c3c1ce; 
-        --Grayish-Blue: #dedede;
-
+    /* Primary */
+    --Red: hsl(0, 100%, 74%); 
+    --Green: hsl(154, 59%, 51%);
+    
+    /* Accent */
+    --Blue: hsl(248, 32%, 49%);
+    
+    /* Neutral */
+    --Dark-Blue: #c3c1ce; 
+    --Grayish-Blue: #dedede;
+    
     /* Typography */
     --Poppins: 'Poppins', sans-serif;
 }
@@ -24,7 +24,7 @@
 
 
 /*********** 
-    Reset
+Reset
 ************/
 *,
 *::before,
@@ -198,6 +198,7 @@ body {
         margin-bottom: 2.5rem;
         text-align: center;
         width: 100%;
+        min-height: 6rem;
     }
 
     .block__card-text {
